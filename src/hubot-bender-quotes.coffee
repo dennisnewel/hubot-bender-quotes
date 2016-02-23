@@ -24,5 +24,7 @@ bender_quotes = [
 trigger = process.env.HUBOT_BENDER_QUOTES_TRIGGER ? 'shut up';
 
 module.exports = (robot) ->
-  robot.respond /trigger/i, (res) ->
-    res.send res.random bender_quotes
+  robot.respond /(.*)/i, (msg) ->
+    return unless msg.match[1]
+    if (!!~ msg.match[1].indexOf trigger)
+        msg.send msg.random bender_quotes

@@ -18,7 +18,10 @@ bender_quotes = [
     'This is the worst kind of discrimination there is: the kind against me!',
     'I guess if you want children beaten, you have to do it yourself',
     'Hahahahaha. Oh wait you’re serious. Let me laugh even harder',
-    'I’ll build by own theme park. With black jack, and hookers. In fact, forget the park!'
+    'I’ll build by own theme park. With black jack, and hookers. In fact, forget the park!',
+    "My life, and by extension everybody else's, is meaningless",
+    "Hey, do i preach to you when you're lying stoned in the gutter? No",
+    "I'm sorry guys. I never meant to hurt you. Just to destroy everything you ever believed in"
 ]
 
 trigger = process.env.HUBOT_BENDER_QUOTES_TRIGGER ? 'shut up';

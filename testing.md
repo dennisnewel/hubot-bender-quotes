@@ -1,3 +1,3 @@
 ## Updates
 
-* en gang til for arve-prins Knud
+* oh no, here we go again

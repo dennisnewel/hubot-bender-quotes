@@ -35,3 +35,6 @@ hubot>> Kill all humans
 user1>> bender: go away
 bender>> Bite my shiny metal ass!
 ```
+### Future
+
+Does there need to be one?
